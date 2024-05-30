@@ -32,6 +32,13 @@ Este documento descreve como a equipe colaborou para criar o modelo lógico de b
 ## Ferramentas Utilizadas
 
 -**dbdiagram.io**: Para detalhar diagramas lógicos e físicos.
+
+-**VsCode**: Escrita do codigo em dbml.
+
+**-DBML Live Preview**: Para visualizar o diagrama direto no vscode.
+
+**-Live Share**: Para os membros da equipe trabalharem juntos ao mesmo tempo no mesmo arquivo.
+
 -**GitHub**: Para controle de versão e colaboração no código.
 
 ## Contribuições Individuais
