@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento descreve como a equipe colaborou para criar o modelo lógico de banco de dados, detalhando o processo de contribuição, o papel de cada membro da equipe, as ferramentas utilizadas e os principais desafios enfrentados.
+Este documento descreve como a equipe colaborou para criar o modelo lógico de banco de dados, detalhando o processo de contribuição, o papel de cada membro da equipe e as ferramentas utilizadas.
 
 ## Processo de Contribuição
 
