@@ -53,7 +53,15 @@ parte da ana
 
 ### Kauã Kelvyn
 
-Parte do Kauã
+- Liderou as reuniões iniciais e definições de entidades.
+- Configurou e manteve os ambientes de dbdiagram.io.
+- Documentou o processo de design e as decisões tomadas.
+- Garantiu a conformidade dos tipos de dados e restrições.
+- Responsável pelo design lógico de tabelas relacionadas
+
+### Samuel
+
+Parte do Samuel
 
 ## Conclusão
 

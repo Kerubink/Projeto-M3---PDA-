@@ -1,0 +1,208 @@
+Table Agua_Potavel {
+    ID_Agua mediumint [pk, increment]
+    Volume decimal(10, 2) [note: 'Volume em litros.']
+    Data_de_Validade date [note: 'Data de validade da embalagem.']
+    Nivel_de_Urgencia tinyint [note: '1 - Baixa, 2 - Média, 3 - Alta']
+    Embalagem varchar(50)
+    Descricao text
+    Fornecedor varchar(100)
+    
+    note: 'Tabela que armazena informações sobre água potável disponível para doação.'
+}
+
+Table Alimentos {
+    ID_Alimentos mediumint [pk, increment]
+    Nome varchar(100)
+    Categoria varchar(50)
+    Data_de_Validade date [note: 'A data de validade do alimento.']
+    Quantidade decimal(10, 2) [note: 'Quantidade em quilogramas.']
+    Descricao text
+    Nivel_de_Urgencia tinyint
+    Fornecedor varchar(100)
+
+    note: 'Tabela que armazena informações sobre alimentos disponíveis para doação.'
+}
+
+Table Usuarios {
+    ID_Usuarios mediumint [pk, increment]
+    Nome_Usuarios varchar(100)
+    Email varchar(50) [unique, note: 'Cada usuário deve ter um e-mail único.']
+    Endereco varchar(225)
+    Tipo_de_Usuarios varchar(50)
+
+    indexes {
+        (Email) [unique, note: 'Índice único para garantir e-mails exclusivos.']
+    }
+
+    note: 'Esta tabela armazena informações dos usuários registrados no sistema.'
+}
+
+Table Instituicao {
+    ID_Instituicao mediumint [pk, increment]
+    Nome_Instituicao varchar(100)
+    Email varchar(50)
+    Telefone varchar(50)
+    Enderecos varchar(225)
+    Descricao text
+
+    note: 'Tabela que armazena informações sobre a instituição.'
+}
+
+Table Voluntarios {
+    ID_Voluntario mediumint [pk, increment]
+    Nome_Voluntario varchar(100)
+    Disponibilidade timestamp
+    Habilidades text
+    Email varchar(50)
+    Telefone varchar(50)
+    Descricao text
+
+    indexes {
+         (Nome_Voluntario) [note: 'Índice para acelerar buscas por nome de voluntários.']
+    }
+
+    note: 'Tabela que armazena informações dos voluntários registrados no sistema.'
+}
+
+Table Moveis_e_Eletrodomesticos {
+    ID_item int [pk, increment]
+    Tipo_de_item varchar(200)
+    Marca varchar(100)
+    Modelo varchar(100)
+    Estado_de_Conservacao varchar(100)
+    Descricao text
+
+    note: 'Tabela que armazena informações sobre móveis e eletrodomésticos disponíveis para doação.'
+}
+
+Table Equipamentos_de_Comunicacao {
+    ID_aparelho int [pk, increment]
+    Tipo_de_equipamento varchar(200)
+    Marca varchar(100)
+    Modelo varchar(100)
+    Data_de_aquisicao date
+    Descricao text
+
+    note: 'Tabela que armazena informações sobre equipamentos de comunicação disponíveis para doação.'
+}
+
+Table Materiais_de_Limpeza {
+    ID int [pk, increment]
+    Nome_item varchar(225)
+    Quantidade int
+    Data_recebimento date
+    Data_validade date
+    Categoria varchar(100)
+    Instrucoes_uso text
+
+    note: 'Tabela que armazena informações sobre materiais de limpeza disponíveis para doação.'
+}
+
+Table Roupas {
+    ID_roupas int [pk, increment]
+    Nome_da_peca varchar(100)
+    Quantidade int
+    Categoria varchar(100)
+    Estado_de_conservacao varchar(100)
+    Etiqueta enum('PP', 'P', 'M', 'G', 'GG')
+    Tecidos varchar(200)
+    Cor_da_peca varchar(100)
+    Genero enum('MASCULINO', 'FEMININO', 'UNISEX')
+
+    note: 'Tabela que armazena informações sobre roupas disponíveis para doação.'
+}
+
+Table Farmaceuticos {
+    ID_Farmaceutico int [pk, increment]
+    Nome_Comercial varchar(100)
+    Tipo enum('Medicamento', 'Suplemento', 'Homeopático')
+    Data_de_Validade date
+    Quantidade_em_Estoque decimal(10, 2)
+    Instrucoes_de_Uso text
+    Nivel_de_Restricao enum('Prescrição Necessária', 'Venda Livre')
+    Fabricante varchar(100)
+    Composicao text
+    Efeitos_Colaterais text
+
+    note: 'Tabela que armazena informações sobre produtos farmacêuticos disponíveis para doação.'
+}
+
+Table Materiais_de_Construcao {
+    ID_Construcao int [pk, increment]
+    Quantidade int
+    Peso decimal
+    Material varchar(100)
+    Descricao text
+
+    note: 'Tabela que armazena informações sobre materiais de construção disponíveis para doação.'
+}
+
+Table Assistencia_Tecnica {
+    ID_Assistencia mediumint [pk, increment]
+    Nome_Tecnico varchar(100)
+    Especialidade varchar(100)
+    Disponibilidade timestamp
+    Contato varchar(50)
+    Descricao text
+    Avaliacao tinyint
+
+    note: 'Tabela que armazena informações sobre assistência técnica disponível.'
+}
+
+Table Doacao {
+    ID_Doacao mediumint [pk, increment]
+    UsuarioID mediumint
+    InstituicaoID mediumint
+    AguaID mediumint
+    AlimentoID mediumint
+    ItemID int
+    MaterialID int
+    AparelhoID int
+    RoupasID int
+    FarmaceuticoID int
+    ConstrucaoID int
+    Descricao text
+
+    note: 'Tabela que armazena informações sobre doações recebidas.'
+}
+
+Table Instituicao_Voluntarios {
+    ID mediumint [pk, increment]
+    ID_Instituicao mediumint
+    ID_Voluntario mediumint
+
+    note: 'Tabela de relação entre instituições e voluntários.'
+}
+
+Table Instituicao_Assistencia {
+    ID mediumint [pk, increment]
+    ID_Assistencia mediumint
+    ID_Instituicao mediumint
+
+    note: 'Tabela de relação entre instituições e pessoas que prestam assistencia tecnica.'
+}
+
+Table Usuario_Instituicao {
+    ID mediumint [pk, increment]
+    ID_Usuarios mediumint
+    ID_Instituicao mediumint
+
+    note: 'Tabela de relação entre usuários e instituições.'
+}
+
+Ref: Doacao.UsuarioID > Usuarios.ID_Usuarios 
+Ref: Doacao.InstituicaoID > Instituicao.ID_Instituicao
+Ref: Doacao.AguaID > Agua_Potavel.ID_Agua
+Ref: Doacao.AlimentoID > Alimentos.ID_Alimentos
+Ref: Doacao.RoupasID > Roupas.ID_roupas
+Ref: Doacao.ItemID > Moveis_e_Eletrodomesticos.ID_item
+Ref: Doacao.MaterialID > Materiais_de_Limpeza.ID
+Ref: Doacao.AparelhoID > Equipamentos_de_Comunicacao.ID_aparelho
+Ref: Doacao.FarmaceuticoID > Farmaceuticos.ID_Farmaceutico
+Ref: Doacao.ConstrucaoID > Materiais_de_Construcao.ID_Construcao
+Ref: Usuario_Instituicao.ID_Instituicao > Instituicao.ID_Instituicao
+Ref: Instituicao_Voluntarios.ID_Voluntario > Voluntarios.ID_Voluntario
+Ref: Usuario_Instituicao.ID_Usuarios > Usuarios.ID_Usuarios
+Ref: Instituicao_Voluntarios.ID_Instituicao > Instituicao.ID_Instituicao
+Ref: Instituicao_Assistencia.ID_Instituicao > Instituicao.ID_Instituicao
+Ref: Instituicao_Assistencia.ID_Assistencia > Assistencia_Tecnica.ID_Assistencia
