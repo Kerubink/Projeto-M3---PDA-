@@ -50,7 +50,7 @@ parte do miszael
 - Liderou as reuniões iniciais e definições de entidades.
 - Responsável pela revisão e validação dos diagramas conceituais.
 - Contribuiu com a definição de relacionamentos e cardinalidades.
-- Coordenou a documentação do modelo logico.
+- Coordenou a documentação do modelo conceitual.
 - Documentação e Padronização
 
 ## Conclusão

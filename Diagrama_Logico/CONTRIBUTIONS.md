@@ -58,6 +58,7 @@ parte da ana
 - Documentou o processo de design e as decisões tomadas.
 - Garantiu a conformidade dos tipos de dados e restrições.
 - Responsável pelo design lógico de tabelas relacionadas
+- Documentação e Padronização
 
 ### Samuel
 
