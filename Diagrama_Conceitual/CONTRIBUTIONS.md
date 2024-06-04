@@ -39,7 +39,7 @@ Este documento descreve como a equipe colaborou para criar o modelo conceitual d
 
 ### Samuel
 
-Parte do samuel
+Fiz a parte inicial de transformar os nomes das entidades e seus respectivos atributos em elementos gráficos do modelo conceitual. Os retângulos representam as entidades, e as elipses conectadas a eles representam seus atributos. Posteriormente, ajudei na parte de relacionamento entre as entidades.
 
 ### Miszael
 
