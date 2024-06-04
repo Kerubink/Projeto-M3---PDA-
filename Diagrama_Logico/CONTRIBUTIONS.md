@@ -65,7 +65,7 @@ parte da ana
 
 ### Samuel
 
-Parte do Samuel
+Ajudei a passar os dados de algumas entidades para o modelo de entidade de relacionamento(lógico).
 
 ## Conclusão
 
