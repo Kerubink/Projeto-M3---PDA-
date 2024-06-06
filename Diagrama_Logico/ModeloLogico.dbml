@@ -29,6 +29,7 @@ Table Usuarios {
     Email varchar(50) [unique, note: 'Cada usuário deve ter um e-mail único.']
     Endereco varchar(225)
     Tipo_de_Usuarios varchar(50)
+    ID_Instituicao mediumint 
 
     indexes {
         (Email) [unique, note: 'Índice único para garantir e-mails exclusivos.']
@@ -200,6 +201,7 @@ Ref: Doacao.MaterialID > Materiais_de_Limpeza.ID
 Ref: Doacao.AparelhoID > Equipamentos_de_Comunicacao.ID_aparelho
 Ref: Doacao.FarmaceuticoID > Farmaceuticos.ID_Farmaceutico
 Ref: Doacao.ConstrucaoID > Materiais_de_Construcao.ID_Construcao
+Ref: Usuarios.ID_Instituicao > Instituicao.ID_Instituicao
 Ref: Usuario_Instituicao.ID_Instituicao > Instituicao.ID_Instituicao
 Ref: Instituicao_Voluntarios.ID_Voluntario > Voluntarios.ID_Voluntario
 Ref: Usuario_Instituicao.ID_Usuarios > Usuarios.ID_Usuarios
