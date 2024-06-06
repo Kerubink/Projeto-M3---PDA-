@@ -52,7 +52,9 @@ Este documento descreve como a equipe colaborou para criar o modelo lógico de b
 
 ### Ana Caroline
 
-parte da ana
+- Colaborou para a definição do tema do banco de dados.
+- Criou a entidade 'Produtos de Limpeza'.
+- Contribuiu para a criação do modelo das entidades de relacionamento.
 
 ### Kauã Kelvyn
 
