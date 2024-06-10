@@ -43,7 +43,7 @@ Fiz a parte inicial de transformar os nomes das entidades e seus respectivos atr
 
 ### Miszael
 
-parte do miszael
+Ajudei na organização dos atributos e seus relacionamentos, além de editar os atributos conforme necessário.
 
 ### Kauã Kelvyn
 
