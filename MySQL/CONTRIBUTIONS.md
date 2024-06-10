@@ -79,9 +79,14 @@ Vamos mergulhar no mundo do MySQL e descobrir como esse poderoso sistema de gere
 
 parte do samuel
 
-### Miszael
+### Miszael N. Costa
 
-parte do miszael
+- Colaborou para a definição do tema do banco de dados.
+- Criou a entidade 'Matérias de construção'.
+- Contribuiu para a criação do modelo das entidades de relacionamento.
+- Contribuiu com os relacionamentos e cardinalidades.
+
+
 
 ### Ana Caroline
 

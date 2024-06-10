@@ -41,9 +41,11 @@ Este documento descreve como a equipe colaborou para criar o modelo conceitual d
 
 Fiz a parte inicial de transformar os nomes das entidades e seus respectivos atributos em elementos gráficos do modelo conceitual. Os retângulos representam as entidades, e as elipses conectadas a eles representam seus atributos. Posteriormente, ajudei na parte de relacionamento entre as entidades.
 
-### Miszael
+### Miszael N, Costa
 
-Ajudei na organização dos atributos e seus relacionamentos, além de editar os atributos conforme necessário.
+- Participei das reuniões iniciais e contribuí para a definição das entidades.
+- Contribuí para a organização dos atributos e seus relacionamentos, realizando edições conforme necessário.
+- Auxiliei na definição de relacionamentos e cardinalidades.
 
 ### Kauã Kelvyn
 
