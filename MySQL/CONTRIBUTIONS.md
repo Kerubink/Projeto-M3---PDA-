@@ -77,7 +77,11 @@ Vamos mergulhar no mundo do MySQL e descobrir como esse poderoso sistema de gere
 
 ### Samuel
 
-parte do samuel
+- Colaborou para a definição do tema do banco de dados.
+- Criou a entidade 'Móveis e Eletrodomésticos'.
+- Contribuiu para a criação do modelo conceitual.
+- Contribuiu para a criação do modelo das entidades de relacionamento.
+- Contribuiu com os relacionamentos e cardinalidades.
 
 ### Miszael N. Costa
 
