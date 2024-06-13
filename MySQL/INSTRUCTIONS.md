@@ -13,7 +13,7 @@ Este arquivo oferece instruções detalhadas sobre como configurar e usar o banc
 
 ## Onde Encontrar os Códigos
 
-Os códigos SQL e os scripts necessários para a configuração do banco de dados podem ser encontrados apenas em no repositório GitHub do projeto. Siga os passos abaixo para acessar:
+Os códigos SQL e os scripts necessários para a configuração do banco de dados podem ser encontrados apenas no repositório GitHub do projeto. Siga os passos abaixo para acessar:
 
 1. Acesse o repositório no GitHub: [Link do Repositório](https://github.com/Kerubink/Projeto-M3---PDA-)
 2. Navegue até o diretório `MySQL` onde os arquivos `.sql` estão localizados.
