@@ -4,7 +4,7 @@
 
 Este documento destina-se a fornecer uma visão geral do código MySQL utilizado no projeto de banco de dados. O código MySQL foi desenvolvido para criar e manipular o banco de dados conforme os requisitos do sistema.
 
-O projeto de banco de dados foi concebido para atender a determinadas necessidades específicas, e o código MySQL desempenha um papel crucial na implementação desses requisitos. Ele inclui instruções para criar tabelas, definir relacionamentos, inserir dados e realizar consultas, entre outras operações essenciais.
+O projeto de banco de dados foi concebido para atender a determinadas necessidades específicas, e o código MySQL desempenha um papel crucial na implementação desses requisitos.
 
 Ao longo deste documento, exploraremos o processo de criação e execução do código MySQL, destacando as etapas-chave, as ferramentas utilizadas e as contribuições individuais dos membros da equipe.
 
@@ -59,7 +59,7 @@ Vamos mergulhar no mundo do MySQL e descobrir como esse poderoso sistema de gere
 
 ## Ferramentas Utilizadas
 
--**MySQL Workbench**: Para criar diagramas conceituais de alto nível. 
+-**MySQL Workbench**: Para criar e manitular(Consultar) o banco de dados.
 
 -**GitHub**: Para controle de versão e postagem dos arquivos.
 
@@ -90,8 +90,6 @@ Vamos mergulhar no mundo do MySQL e descobrir como esse poderoso sistema de gere
 - Contribuiu para a criação do modelo das entidades de relacionamento.
 - Contribuiu com os relacionamentos e cardinalidades.
 
-
-
 ### Ana Caroline
 
 - Colaborou para a definição do tema do banco de dados.
@@ -100,11 +98,10 @@ Vamos mergulhar no mundo do MySQL e descobrir como esse poderoso sistema de gere
 
 ### Beatriz Magalhães
 
-- Colaborou para a definição do tema do banco de dados. 
+- Colaborou para a definição do tema do banco de dados.
 - Criou a entidade 'Tecnologia e Equipamentos de Comunicação'.
 - Contribuiu para a criação do modelo das entidades de relacionamento.
 - Contribuiu na verificação de commits para o github.
-
 
 ## Conclusão
 
