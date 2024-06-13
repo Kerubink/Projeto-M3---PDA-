@@ -1,5 +1,7 @@
 # Contribuições do Diagrama Conceitual do Banco de Dados
 
+![Diagrama](./Diagrama_Relacional_Flowcharts.png)
+
 ## Introdução
 
 Este documento descreve como a equipe colaborou para criar o modelo conceitual de banco de dados, detalhando o processo de contribuição, o papel de cada membro da equipe e as ferramentas utilizadas.

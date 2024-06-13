@@ -1,5 +1,7 @@
 # Contribuições do Diagrama Lógico do Banco de Dados
 
+![Diagrama](./Diagrama_Conceitual/Diagrama_Relacional_Flowcharts.png)
+
 ## Introdução
 
 Este documento descreve como a equipe colaborou para criar o modelo lógico de banco de dados, detalhando o processo de contribuição, o papel de cada membro da equipe e as ferramentas utilizadas.
@@ -45,7 +47,7 @@ Este documento descreve como a equipe colaborou para criar o modelo lógico de b
 
 ### Beatriz Magalhães
 
-- Colaborou para a definição do tema do banco de dados. 
+- Colaborou para a definição do tema do banco de dados.
 - Criou a entidade 'Tecnologia e Equipamentos de Comunicação'.
 - Contribuiu para a criação do modelo das entidades de relacionamento.
 - Contribuiu na verificação de commits para o github.
