@@ -141,39 +141,43 @@ Este projeto proporcionou uma compreensão mais profunda sobre a modelagem de ba
 
 ### Líder
 
-- **Kauã Kelvyn**
-  ![Kauã](https://avatars.githubusercontent.com/u/112822162?v=4)
-  Desenvolvedor Fullstack - Líder
-  - GitHub: [Kerubink](https://github.com/Kerubink)
-  - LinkedIn: [Kauã Kelvyn](https://www.linkedin.com/in/kau%C3%A3-moraes-079288303/)
+**Kauã Kelvyn**
+![Kauã](https://avatars.githubusercontent.com/u/112822162?v=4)
+Desenvolvedor Fullstack - Líder
+
+- GitHub: [Kerubink](https://github.com/Kerubink)
+- LinkedIn: [Kauã Kelvyn](https://www.linkedin.com/in/kau%C3%A3-moraes-079288303/)
 
 ### Comunicador
 
-- **Samuel**
-  ![Samuel](https://avatars.githubusercontent.com/u/105753686?v=4)
-  Desenvolvedor Fullstack - Comunicador
-  - GitHub: [Samuel-Kepler](https://github.com/Samuel-Kepler)
-  - LinkedIn: [Samuel](https://www.linkedin.com/in/samuel-ribeiro-loiola)
+**Samuel**
+![Samuel](https://avatars.githubusercontent.com/u/105753686?v=4)
+Desenvolvedor Fullstack - Comunicador
+
+- GitHub: [Samuel-Kepler](https://github.com/Samuel-Kepler)
+- LinkedIn: [Samuel](https://www.linkedin.com/in/samuel-ribeiro-loiola)
 
 ### Gestor de Conhecimento
 
-- **Miszael**
-  ![Miszael](https://avatars.githubusercontent.com/u/119391809?v=4)
-  Desenvolvedor Fullstack - Gestor de Conhecimento
-  - GitHub: [minu1123](https://github.com/minu1123)
-  - LinkedIn: [Miszael](https://www.linkedin.com/in/miszael-costa-19b0b4251/)
+**Miszael**
+![Miszael](https://avatars.githubusercontent.com/u/119391809?v=4)
+Desenvolvedor Fullstack - Gestor de Conhecimento
+
+- GitHub: [minu1123](https://github.com/minu1123)
+- LinkedIn: [Miszael](https://www.linkedin.com/in/miszael-costa-19b0b4251/)
 
 ### Colaboradores
 
-- **Ana**
-  ![Ana](https://avatars.githubusercontent.com/u/97240075?v=4)
-  Desenvolvedora Fullstack - Colaboradora
+**Ana**
+![Ana](https://avatars.githubusercontent.com/u/97240075?v=4)
+Desenvolvedora Fullstack - Colaboradora
 
-  - GitHub: [Ana-Neves](https://github.com/Ana-Neves)
-  - LinkedIn: [Ana](https://www.linkedin.com/in/ana-caroline-neves-fullstack/)
-- **Beatriz**
-  ![Beatriz](https://avatars.githubusercontent.com/u/141242413?v=4)
-  Desenvolvedora Fullstack - Colaboradora
+- GitHub: [Ana-Neves](https://github.com/Ana-Neves)
+- LinkedIn: [Ana](https://www.linkedin.com/in/ana-caroline-neves-fullstack/)
 
-  - GitHub: [l1Beatriz](https://github.com/l1Beatriz)
-  - LinkedIn: [Beatriz](https://www.linkedin.com/in/beatrizsantos009?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+**Beatriz**
+![Beatriz](https://avatars.githubusercontent.com/u/141242413?v=4)
+Desenvolvedora Fullstack - Colaboradora
+
+- GitHub: [l1Beatriz](https://github.com/l1Beatriz)
+- LinkedIn: [Beatriz](https://www.linkedin.com/in/beatrizsantos009?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
