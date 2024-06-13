@@ -141,8 +141,9 @@ Este projeto proporcionou uma compreensão mais profunda sobre a modelagem de ba
 
 ### Líder
 
-**Kauã Kelvyn**
+
 ![Kauã](https://avatars.githubusercontent.com/u/112822162?v=4)
+**Kauã Kelvyn**
 Desenvolvedor Fullstack - Líder
 
 - GitHub: [Kerubink](https://github.com/Kerubink)
@@ -150,8 +151,9 @@ Desenvolvedor Fullstack - Líder
 
 ### Comunicador
 
-**Samuel**
+
 ![Samuel](https://avatars.githubusercontent.com/u/105753686?v=4)
+**Samuel**
 Desenvolvedor Fullstack - Comunicador
 
 - GitHub: [Samuel-Kepler](https://github.com/Samuel-Kepler)
@@ -159,8 +161,9 @@ Desenvolvedor Fullstack - Comunicador
 
 ### Gestor de Conhecimento
 
-**Miszael**
+
 ![Miszael](https://avatars.githubusercontent.com/u/119391809?v=4)
+**Miszael**
 Desenvolvedor Fullstack - Gestor de Conhecimento
 
 - GitHub: [minu1123](https://github.com/minu1123)
@@ -168,15 +171,17 @@ Desenvolvedor Fullstack - Gestor de Conhecimento
 
 ### Colaboradores
 
-**Ana**
+
 ![Ana](https://avatars.githubusercontent.com/u/97240075?v=4)
+**Ana**
 Desenvolvedora Fullstack - Colaboradora
 
 - GitHub: [Ana-Neves](https://github.com/Ana-Neves)
 - LinkedIn: [Ana](https://www.linkedin.com/in/ana-caroline-neves-fullstack/)
 
-**Beatriz**
+
 ![Beatriz](https://avatars.githubusercontent.com/u/141242413?v=4)
+**Beatriz**
 Desenvolvedora Fullstack - Colaboradora
 
 - GitHub: [l1Beatriz](https://github.com/l1Beatriz)
