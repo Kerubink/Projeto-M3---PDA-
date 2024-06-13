@@ -1,3 +1,5 @@
+![imagem para ilustração](assets/readme/banner.jpg)
+
 # Portal de Socorro e Apoio (PSA)
 
 ## Descrição da Organização
